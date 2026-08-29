@@ -1,0 +1,59 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.iml
+
+# Project-specific - Images and output
+ (تصاویر ورودی و خروجی که حجم بالایی دارند)
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.tiff
+*.tif
+
+# Output directory (ماسک‌های تولید شده)
+output/
+*.npy
+
+# GT directory if it contains large images
+gt/
+
+# Scores CSV
+scores.csv
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Jupyter notebooks (optional)
+.ipynb_checkpoints/
+*.ipynb
+
+# Logs
+logs/
+*.log
+
+# Backup files
+*.bak
+*.backup
+
+# Compiled C/C++ extensions
+*.so
+*.dll
+*.dylib
